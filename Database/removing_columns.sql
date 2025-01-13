@@ -1,4 +1,4 @@
-USE SupplyChainDataset;
+USE DataCoSupplyChainDataset;
 
 SELECT * from DataCoSupplyChainDataset;
 
@@ -10,3 +10,6 @@ ALTER TABLE DataCoSupplyChainDataset DROP COLUMN Customer_Email, Customer_Passwo
 
 SELECT * from DataCoSupplyChainDataset;
 
+
+SELECT * from DataCoSupplyChainDataset WHERE Latitude IS NULL;
+SELECT * from DataCoSupplyChainDataset WHERE Longitude IS NULL;
